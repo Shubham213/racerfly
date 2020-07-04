@@ -7,7 +7,44 @@
 
 {% load static %}
            <div class="go">
-                <div style="width:100%; font-size:16px;text-align: center; padding:25px 0 15px 0; background: #8ae8a9;  font-family: 'Montserrat'; color:#121212;line-height:20px; letter-spacing:1.5px;text-shadow:0 0px 1px #9a9;font-weight:700;">
+		   <style>
+			   ._for_uvastra{width:100%;}
+			   html,body{min-width:800px!important;}
+			   ._for_uvastra ._max{max-width:1200px;min-width:800px;background:#f0f0f0;}
+			   .flexy{display:box;display:-webkit-flex;display:flex;padding:20px 0;width:100%;}
+			   .flexy .left{width:300px;min-width:300px;padding:10px;height:300px;}
+			   .flexy .right{width:100%;height:auto;}
+			   
+			   .flexy .left .image{width:300px;min-width:300px;padding:10px 0;height:300px;background:#fff;bordr-radius:6px;overflow:hidden;}
+			   .image>*{width:100%;height:100%;object-fit:contain;-o-object-fit:contain;}
+			   .flexy .right h2{font-size:20px;line-height:50px;margin:0;color:#6414aa;}
+			   .flexy .right h4{font-size:15px;line-height:30px;margin:0;color:#4e4e4e;padding-top:20px;}
+			   
+		   </style>
+		   <div class="section _for_uvastra">
+			   <div class="_max">
+				   <a href="drones.racerfly.com/">
+				   <div class="flexy">
+					   <div class="left">
+					   	<div class="image">
+							<video src="{% static 'uv_astra.mp4' %}" type="video/mp4" />
+						   </div>
+					   </div>
+					   <div class="right">
+						<div class="headcontent">
+							<h2>RacerFly - Tech Startup came up with a revolutionary Product UV astra : UltraVoilet Sanitizer which can be used to sanitize every Surface</h2>
+						</div>
+						<div class="headcontent">
+							<h4>Booking started at 'uvastra.racerfly.com'</h4>
+							<h4>BOOK NOW</h4>
+						   </div>
+					   </div>
+				   </div>
+				   </a>
+			   </div>
+		   </div>
+		   
+		   <div style="width:100%; font-size:16px;text-align: center; padding:25px 0 15px 0; background: #8ae8a9;  font-family: 'Montserrat'; color:#121212;line-height:20px; letter-spacing:1.5px;text-shadow:0 0px 1px #9a9;font-weight:700;">
 			<div> 
 <!-- 				Good evening, do not panic this is just a test-->
         			<div>Racerfly brings Fully Autonomous Sprayer Drones in India</div>
